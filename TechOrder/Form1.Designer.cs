@@ -44,6 +44,7 @@
             this.WelcomeLabel.Size = new System.Drawing.Size(483, 57);
             this.WelcomeLabel.TabIndex = 0;
             this.WelcomeLabel.Text = "Welcome to XXX!";
+            this.WelcomeLabel.Click += new System.EventHandler(this.WelcomeLabel_Click);
             // 
             // StartButton
             // 
@@ -56,6 +57,7 @@
             this.StartButton.TabIndex = 1;
             this.StartButton.Text = "START";
             this.StartButton.UseVisualStyleBackColor = true;
+            this.StartButton.Click += new System.EventHandler(this.StartButton_Click);
             // 
             // PromptLabel
             // 

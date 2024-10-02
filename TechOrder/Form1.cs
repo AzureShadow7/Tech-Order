@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TechOrder
 {
-    public partial class Form1 : Form
+    public partial class TechOrder : Form
     {
-        public Form1()
+        public TechOrder()
         {
             InitializeComponent();
         }
